@@ -99,7 +99,24 @@ przystosowaniu.
 
 
 \subsection{Reprezentacja} 
+Osobniki oraz ich genotyp prezentowane bedą w postaci obiektu:\\
 
+\begin{SmallVerbatim}
+    class bus{
+	    private double sizeX;
+	    private double sizeY;
+	    private int seatNb;
+	    private double[][] seatAllign;
+    }
+\end{SmallVerbatim}
+
+\begin{itemize}
+	\item sizeX - długość autobusu;
+	\item sizeY - szerokość autobusu;
+	\item seatNb - liczba miejsc siedzących
+	\item seatAllign - współrzędne kolejnych siedzeń w autobusie
+\end{itemize}
+	
 
 \subsection{Krzyżowanie}
 Wymiary potomstwa będą średnią wymiarów rodziców, podobnie ilość miejsc.
